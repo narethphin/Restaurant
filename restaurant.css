@@ -1,0 +1,18 @@
+body {
+  background-color: #faf7f3;
+}
+
+page {
+  display: block;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0.5em;
+  border: 1px solid red;
+}
+
+social,
+logo,
+navigation {
+  display: block;
+  padding: 0.5em;
+}
