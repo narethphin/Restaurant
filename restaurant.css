@@ -10,9 +10,44 @@ page {
   border: 1px solid red;
 }
 
-social,
+header,
+content,
+footer {
+  border: 1px solid orange;
+}
+
+contact,
 logo,
-navigation {
+navigation,
+pic,
+about,
+event,
+copyright {
   display: block;
   padding: 0.5em;
+  border: 1px solid green;
+}
+
+social {
+  flex: 1 1 50%;
+  padding: 0.5em;
+  border: 1px solid blue;
+}
+
+number {
+  flex: 1 1 50%;
+  padding: 0.5em;
+  border: 1px solid blue;
+}
+
+contact {
+  display: flex;
+  padding: 0.5em;
+  border: 1px solid green;
+}
+
+logo {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
