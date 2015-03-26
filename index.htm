@@ -6,55 +6,69 @@
 </head>
 <body>
   <page>
-    <region>
+    <region class="header">
       <horizontal class="contact">
-        <social>Twitter</social>
-        <number>
+        <block class="social">
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+          </script>
+        </block>
+        <block class="number">
           <p>1234 South Main Street</p>
           <p>Flower Bud Village, IL 60618
           <p>(312) 555-7312</p>
-        </number>
+        </block>
       </horizontal>
       <horizontal>
-        <logo>
+        <block class="logo">
           Flower Bud Village Cafe and Bakery
-        </logo>
+        </block>
       </horizontal>
       <horizontal>
-        <navigation>
-          <item>Home</item>
-          <item>Menu</item>
-          <item>Location</item>
-          <item>Reservations</item>
-          <item>Reviews</item>
-        </navigation>
+        <block class="navigation">
+          <item>
+            <a href="#" class="menuLink">Home</a>
+          </item>
+          <item>
+            <a href="#" class="menuLink">Menus</a>
+          </item>
+          <item>
+            <a href="#" class="menuLink">Locations</a>
+          </item>
+          <item>
+            <a href="#" class="menuLink">Reservations</a>
+          </item>
+          <item>
+            <a href="#" class="menuLink">Reviews</a>
+          </item>
+        </block>
       </horizontal>
     </region>
-    <region>
-      <pic>
+    <region class="main">
+      <block class="pic">
         <img class="hero" src="C:\Users\Nareth\Documents\WebDev\Restaurant\pics\HM64_ss_bakery.png">
         <img class="hero" src="C:\Users\Nareth\Documents\WebDev\Restaurant\pics\interior.jpg">
-      </pic>
+      </block>
       <horizontal>
-        <about>
-          <p>Welcome to Flower Bud Village Cafe and Bakery. Jeff, Head Baker, and Elli, Ellen's granddaughter, continue this tradition. blah, blah, blah. We hope you enjoy your experience.</p>
-        </about>
+        <block class="about">
+          <p>Welcome to Flower Bud Village Cafe and Bakery. Our bakery has been serving delicious pastries to Flower Bud Village for generations. Head Baker Jeff, and Elli, Ellen's granddaughter, continue this tradition and hope to see you and your family soon.</p>
+        </block>
       </horizontal>
       <horizontal class="event">
-        <description>
-          <p>Harvest Festival</p>
-          <p>Join us for the Harvest Festival on blah, blah, blah. Food, drink, etc. Children are welcome.</p>
-        </description>
-        <photo>
+        <block class="description">
+          <p class="subtitle">Harvest Festival</p>
+          <p>Join us for the Harvest Festival on October 12.  Children of all ages are welcome. Flower Bud Village Bakery will be providing food and drink. If you find the coin in your piece of cake, you will be next year's Harvest King. Don't miss out on the chance to ride the hot air ballon during the Planting Festival. See you there!</p>
+        </block>
+        <block class="photo">
           <img src="C:\Users\Nareth\Documents\WebDev\Restaurant\pics\harvestfest.jpg">
-        </photo>
+        </block>
       </horizontal>
     </region>
-    <region>
+    <region class="footer">
       <horizontal>
-        <copyright>
+        <block class="copyright">
           <p>(c)2015 Flower Bud Village Cafe and Bakery</p>
-        </copyright>
+        </block>
       </horizontal>
     </region>
   </page>

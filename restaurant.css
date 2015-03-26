@@ -1,68 +1,68 @@
 body {
-  background-color: #faf7f3;
+  font-family: sans-serif;
 }
 
 page {
   display: block;
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1000px;
   padding: 0.5em;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 region {
   display: block;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 }
 
 horizontal {
-  padding: 0.5em;
   display: block;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
-logo,
-navigation,
-about,
-copyright {
+block {
   display: block;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
-social,
-description,
-photo,
-.hero {
+.social,
+.hero,
+.description,
+.photo {
   flex: 1 1 50%;
-  border: 1px solid blue;  
+  /*border: 1px solid blue;  */
+}
+
+.navigation,
+.description,
+.photo {
+  padding: 0.5em;
 }
 
 img {
   max-width: 100%;
 }
 
-number {
+.number {
   flex: 1 1 50%;
-  padding: 0.5em;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   text-align: right;
 }
 
-pic,
+.pic,
 .contact,
 .event {
   display: flex;
-  border: 1px solid green;
-  padding: 0.5em;
+  /*border: 1px solid green;*/
 }
 
-logo {
+.logo {
   display: flex;
   margin: 0 auto;
   justify-content: center;
 }
 
-navigation {
+.navigation {
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -70,4 +70,30 @@ navigation {
 
 item {
   padding: 0.5em;
+  font-size: 1em;
+}
+
+item a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+item a:hover {
+  color: #00aced;
+}
+
+/*Styling*/
+.number p {
+  line-height: 0.1em;
+  font-size: 1em;
+} 
+
+.logo {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.subtitle {
+  font-weight: bold;
 }
